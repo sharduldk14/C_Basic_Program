@@ -2,7 +2,7 @@
 int main()
 {
     int i,num;
-    printf("*****Armstrong Number*****\n");
+    printf("*****Factor of a Number Program*****\n");
     printf("Enter a number");
     scanf("%d",&num);
     printf("The factors of %d are",num);
