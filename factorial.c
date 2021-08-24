@@ -2,7 +2,8 @@
 
 int main()
 {
-    int num,i,fact=1;
+    int num,i;
+    long long int fact=1;
     printf("******Program For a Factorial of a Number******\n");
     printf("Enter a Number:");
     scanf("%d",&num);
@@ -10,6 +11,6 @@ int main()
     {
         fact=fact*i;
     }
-    printf("Factorial of a %d is %d",num,fact);
+    printf("Factorial of a %d is %lld",num,fact);
     return 0;
 }
